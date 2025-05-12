@@ -1,0 +1,4 @@
+tfstates:
+  region: eu-west-3
+  bucket: hoverkraft-tech-acme-tfstates
+  locks-table: hoverkraft-tech-acme-tflocks

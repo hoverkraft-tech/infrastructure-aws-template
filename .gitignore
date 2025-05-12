@@ -1,0 +1,21 @@
+# infracost
+.infracost
+
+# terraform
+.terraform
+*.tfstate
+*.tfstate.backup
+
+# terragrunt
+.terragrunt-cache
+
+# misc
+.history
+.DS_Store
+
+# editors
+/.vscode
+
+# project specific
+/.envrc
+/.secrets

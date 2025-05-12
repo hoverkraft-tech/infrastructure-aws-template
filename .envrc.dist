@@ -1,0 +1,11 @@
+#!/bin/env direnv
+
+# shellcheck disable=SC1008
+
+DIRENV_ROOT_DIR="$(dirname "${BASH_SOURCE[0]}")"
+
+BLUEPRINT_DIR="$(realpath ${DIRENV_ROOT_DIR})"
+INFRACOST_API_KEY="ico-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
+export INFRACOST_API_KEY
+export BLUEPRINT_DIR
